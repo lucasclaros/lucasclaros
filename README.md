@@ -47,11 +47,11 @@ class LucasClaros extends ComputerScientist {
 
   final String age;
   final String pronouns;
-  final String currentFocus;
+  final List<Language> languagesSpoken;
   final Company currentWork;
+  final String currentFocus;
   final List<Technology> technologies;
   final List<Hobby> askMeAbout;
-  final List<Language> languagesSpoken;
   final String funFact;
 }
 ```
