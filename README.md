@@ -18,7 +18,6 @@ class LucasClaros extends ComputerScientist {
       Code(
         'C/C++',
         'Python',
-        'Java',
       ),
       Web(
         'HTML',
