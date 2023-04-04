@@ -9,10 +9,10 @@ abstract class ComputerScientist {}
 
 class LucasClaros extends ComputerScientist {
   LucasClaros({
-    this.age = '20y'
+    this.age = '21y'
     this.pronouns = 'He/Him',
     this.languagesSpoken = ['pt_BR', 'en_US'],
-    this.currentWork = Tokenlab('Mobile Intern'),
+    this.currentWork = Cobli('Software Engineer Intern'),
     this.currentFocus = 'Learning fullstack development',
     this.technologies = const [
       Code(
@@ -20,9 +20,10 @@ class LucasClaros extends ComputerScientist {
         'Python',
       ),
       Web(
-        'HTML',
-        'CSS',
+        'HTML/CSS',
         'Javascript',
+        'React',
+        'Kotlin/Spring Boot'
       ),
       Mobile(
         'Flutter',
